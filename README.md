@@ -15,6 +15,7 @@ Ideal para desenvolvedores que desejam começar rápido com uma estrutura organi
 
 ---
 
+Instalar dependências
 ````bash
 npm install
 ````
@@ -23,6 +24,10 @@ Para resetar a conexão do bot, use:
 
 ```bash
 npm run reset
+```
+
+Para inicar o script do bot ou estabelecer nova conexão, use:
+```bash
 npm run start # para nova conexão
 ```
 
