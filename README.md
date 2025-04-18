@@ -45,10 +45,10 @@ termux-setup-storage
 ```
 Atualize os pacotes do dispositivo
 ```bash
-apt update
+apt update -y
 ```
 ```bash
-apt upgrade
+apt upgrade -y
 ```
 Instale o ffmpeg para trabalhar com manipulação de mídia sem problemas
 ```bash
