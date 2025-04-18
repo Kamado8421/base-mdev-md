@@ -15,6 +15,17 @@ Ideal para desenvolvedores que desejam começar rápido com uma estrutura organi
 
 ---
 
+````bash
+npm install
+````
+
+Para resetar a conexão do bot, use:
+
+```bash
+npm run reset
+npm run start # para nova conexão
+```
+
 ## 📁 Estrutura do Projeto
 
 - `assets/imagens` coloque aqui as imagens fixas do seu bot, como banners...
@@ -54,7 +65,6 @@ module.exports = {
 
 **Obs:** sem as informações de `numeroDono` você não será identificado pelo bot como dono.
 
-
 ## Funções na `src/index.js`
 
 ```javascript
@@ -84,5 +94,4 @@ const enviarImagemDePasta = async (rotaDoAquirvo, legenda = '') => {
 // use: 
 const rotaDoarquivo = '../assstes/imagens/banner.png' // caminho do arquivo
 enviarImagemDePasta(rotaDoarquivo)
-
 ```
