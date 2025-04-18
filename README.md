@@ -35,6 +35,77 @@ Para inicar o script do bot ou estabelecer nova conexão, use:
 npm run start # para nova conexão
 ```
 
+## Comandos no Termux
+Se você está usando o termux, no celular android, use os comandos abaixo.
+**OBS: Esse comandos são de instalação de pacotesm se você já fez isso alguma vez, não necessariamente necessário.
+
+Dê permissão no Termux para acessar seus armazenamentos
+```bash
+termux-setup-storage
+```
+Atualize os pacotes do dispositivo
+```bash
+apt update
+```
+```bash
+apt upgrade
+```
+Instale o ffmpeg para trabalhar com manipulação de mídia sem problemas
+```bash
+apt install ffmpeg -y
+```
+Instale o python3 (alguns códigos executarão o python, apesar do bot está em nodejs)
+```bash
+apt install python3 -y
+```
+Instale o git para baixar a base do bot
+```bash
+apt install git -y
+```
+Instale o nodejs
+```bash
+apt install nodejs && apt install nodejs-tsc
+```
+
+Para verificar se o tudo instalou corretamente use o comando
+```bash
+npm --version
+```
+```bash
+node --version
+```
+```bash
+git --version
+```
+```bash
+ffmpeg -version
+```
+```bash
+python --version
+```
+```bash
+pip --version
+```
+Se todos os comandos mostarem algo como versão do pacote, então tudo certo.
+### Baixando a Base do bot
+Para baixar a base do bot use:
+```bash
+cd /sdcard # para entrar no armazenamento do dispositivo
+```
+Clone o repositório:
+```bash
+git clone https://github.com/Kamado8421/base-mdev-md.git
+```
+
+## Para executar no termux 
+```bash
+cd /sdcard/base-mdev-md # Entre na pasta
+```
+Executar o código:
+```bash
+npm start
+```
+
 ## 📁 Estrutura do Projeto
 
 - `assets/imagens` coloque aqui as imagens fixas do seu bot, como banners...
