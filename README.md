@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/images/banner.png" alt="M'Dev Bot Banner" />
+</p>
+
 # 🤖 M'Dev Bot JS – Base Simples para WhatsApp
 
 Bem-vindo à base oficial do **M'Dev Bot JS**, um projeto desenvolvido para facilitar a criação de bots no WhatsApp com JavaScript.
