@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/banner.png" height=300 alt="M'Dev Bot Banner" />
+  <img src="assets/images/banner.png" height=250 alt="M'Dev Bot Banner" />
 </p>
 
 # 🤖 M'Dev Bot JS – Base Simples para WhatsApp
